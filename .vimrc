@@ -70,8 +70,9 @@ map <F5> <Esc>:EnableFastPHPFolds<Cr>
 map <F6> <Esc>:EnablePHPFolds<Cr>
 map <F7> <Esc>:DisablePHPFolds<Cr>
 
-" Set shortcut keys for PHP documentation.
-source ~/.vim/plugin/php-doc.vim
-inoremap <C-K> <ESC>:call PhpDocSingle()<CR>i
-nnoremap <C-K> :call PhpDocSingle()<CR>
-vnoremap <C-K> :call PhpDocRange()<CR>
+" Activate pathogen.vim
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+" Activate scss.vim
+au BufRead,BufNewFile *.scss set filetype=scss

@@ -50,22 +50,13 @@ set fileencodings=utf-8,big5,euc-jp,gbk,euc-kr,utf-bom,iso8859-1
 set encoding=utf8
 set tenc=utf8
 
-" Set auto commands.
-autocmd BufReadPost *
-\ if line("'\"") > 0 && line ("'\"") <= line("$") |
-\   exe "normal g'\"" |
-\ endif
-autocmd! BufWritePost .vimrc source %
-autocmd BufWritePost *.scss !compass_lite <afile> <afile>:r.css
-autocmd! BufWrite * mark ' | silent! %s/\s\+$// | norm ''
-autocmd BufWrite * :retab
-
 " Set tab settings.
 highlight TabLine ctermbg=blue
 highlight TabLineFill ctermbg=green
 highlight TabLineSel ctermbg=red
 
-" Set shortcut keys for PHP foldering.
+" Set F1-F12 shortcut keys.
+map <F3> oecho "<pre>";print_r($);exit;<Esc>F$a
 map <F5> <Esc>:EnableFastPHPFolds<Cr>
 map <F6> <Esc>:EnablePHPFolds<Cr>
 map <F7> <Esc>:DisablePHPFolds<Cr>
@@ -76,3 +67,16 @@ call pathogen#helptags()
 
 " Activate scss.vim
 au BufRead,BufNewFile *.scss set filetype=scss
+" Removing tailing spaces.
+au! BufWrite * mark ' | silent! %s/\s\+$// | norm ''
+" Replace tab to spaces.
+au BufWrite * :retab
+" Set auto commands.
+autocmd BufReadPost *
+\ if line("'\"") > 0 && line ("'\"") <= line("$") |
+\   exe "normal g'\"" |
+\ endif
+" Make vim setting works immediately.
+autocmd! BufWritePost .vimrc source %
+" Output CSS files once *.scss saves.
+autocmd BufWritePost *.scss !compass_lite <afile> <afile>:r.css

@@ -1,12 +1,18 @@
 [submodule "bundle/zencoding"]
-	path = bundle/zencoding
-	url = https://github.com/mattn/zencoding-vim.git
+    path = bundle/zencoding
+    url = https://github.com/mattn/zencoding-vim.git
 [submodule "bundle/align"]
-	path = bundle/align
-	url = https://github.com/tsaleh/vim-align.git
+    path = bundle/align
+    url = https://github.com/tsaleh/vim-align.git
 [submodule "bundle/scss-syntax"]
-	path = bundle/scss-syntax
-	url = https://github.com/cakebaker/scss-syntax.vim.git
+    path = bundle/scss-syntax
+    url = https://github.com/cakebaker/scss-syntax.vim.git
 [submodule "bundle/phpfolding"]
-	path = bundle/phpfolding
-	url = https://github.com/vim-scripts/phpfolding.vim.git
+    path = bundle/phpfolding
+    url = https://github.com/vim-scripts/phpfolding.vim.git
+[submodule "bundle/surround"]
+    path = bundle/surround
+    url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/supertab"]
+    path = bundle/supertab
+    url = https://github.com/ervandew/supertab.git

@@ -1,2 +1,0 @@
-gitdiff.vba: call delete('/home/joseph_chiang/.vim/plugin/gitdiff.vim')
-Align.vba: call delete('/home/joseph_chiang/.vim/plugin/AlignPlugin.vim')|call delete('/home/joseph_chiang/.vim/plugin/AlignMapsPlugin.vim')|call delete('/home/joseph_chiang/.vim/plugin/cecutil.vim')|call delete('/home/joseph_chiang/.vim/doc/Align.txt')|call delete('/home/joseph_chiang/.vim/autoload/Align.vim')|call delete('/home/joseph_chiang/.vim/autoload/AlignMaps.vim')

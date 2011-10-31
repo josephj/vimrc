@@ -17,5 +17,5 @@
     path = bundle/supertab
     url = https://github.com/ervandew/supertab.git
 [submodule "bundle/matchit"]
-	path = bundle/matchit
-	url = git://github.com/vim-scripts/matchit.zip.git
+    path = bundle/matchit
+    url = git://github.com/vim-scripts/matchit.zip.git

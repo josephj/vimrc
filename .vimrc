@@ -1,4 +1,5 @@
 filetype on
+filetype plugin on
 
 set bs=2
 set cindent

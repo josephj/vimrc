@@ -19,6 +19,6 @@ cd "$VIMHOME"
 git submodule update --init
 
 cd ~
-ln -s .vim/vimrc .vimrc
+ln -s .vim/.vimrc .vimrc
 
 echo "josephj's vimrc is installed."

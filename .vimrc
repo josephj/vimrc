@@ -81,3 +81,10 @@ autocmd BufReadPost *
 autocmd! BufWritePost .vimrc source %
 " Output CSS files once *.scss saves.
 autocmd BufWritePost *.scss !compass_lite <afile> <afile>:r.css
+
+" Create a template file.
+autocmd BufNewFile *.html so ~/.vim/html.txt
+autocmd BufNewFile *.html exe "1," . 10 . "g/name=\"created\" content=\".*\"/s//name=\"created\" content=\"" .strftime("%Y-%m-%d"). "\""
+autocmd Bufwritepre,filewritepre *.c execute "normal ma"
+autocmd BufWritePre,FileWritePre *.html exe "1," . 10 . "g/name=\"modified\" content=\".*\"/s//name=\"modified\" content=\"" .strftime("%c"). "\""
+autocmd bufwritepost,filewritepost *.c execute "normal `a"

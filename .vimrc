@@ -51,6 +51,11 @@ set fileencodings=utf-8,big5,euc-jp,gbk,euc-kr,utf-bom,iso8859-1
 set encoding=utf8
 set tenc=utf8
 
+" Set foldering.
+set foldmethod=syntax
+set foldnestmax=3
+set foldcolumn=1
+
 " Set tab settings.
 highlight TabLine ctermbg=blue
 highlight TabLineFill ctermbg=green

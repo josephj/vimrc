@@ -62,6 +62,7 @@ highlight TabLineFill ctermbg=green
 highlight TabLineSel ctermbg=red
 
 " Set F1-F12 shortcut keys.
+map <silent> <F1> :TlistToggle<CR>
 map <F3> oecho "<pre>";print_r($);exit;<Esc>F$a
 map <F5> <Esc>:EnableFastPHPFolds<Cr>
 map <F6> <Esc>:EnablePHPFolds<Cr>
@@ -93,3 +94,9 @@ autocmd BufNewFile *.html exe "1," . 10 . "g/name=\"created\" content=\".*\"/s//
 autocmd Bufwritepre,filewritepre *.c execute "normal ma"
 autocmd BufWritePre,FileWritePre *.html exe "1," . 10 . "g/name=\"modified\" content=\".*\"/s//name=\"modified\" content=\"" .strftime("%c"). "\""
 autocmd bufwritepost,filewritepost *.c execute "normal `a"
+
+" TagList plugin.
+let Tlist_Auto_Open = 1
+let Tlist_Show_One_File = 1
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_Use_Right_Window = 1

@@ -75,26 +75,16 @@ Usage:
 
 1. Write CSS selector. Take ```div#foo$*2>div.bar``` for example.
 1. Type ```Ctrl-y```.
-1. It generates the following HTML codes:
-
-
-     <div id="foo1">
-         <div class="bar"></div>
-     </div>
-     <div id="foo2">
-         <div class="bar"></div>
-     </div>
-
-
+1. It output HTML code.
 
 Keyboard Shortcuts
 ------------------
-* ```F1```: Toggle Tag List
+* ```F1``` Toggle Tag List
 * ```F2```
 * ```F3```
 * ```F4```
-* ```F5 ESC```: Enable Fast PHP Folds.
-* ```F6 ESC```: Enable PHP Folds.
-* ```F7 ESC```: Disable PHP Folds.
+* ```F5 ESC``` Enable Fast PHP Folds.
+* ```F6 ESC``` Enable PHP Folds.
+* ```F7 ESC``` Disable PHP Folds.
 
 

@@ -34,3 +34,6 @@
 [submodule "bundle/taglist"]
     path = bundle/taglist
     url = git://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/php-doc"]
+	path = bundle/php-doc
+	url = git://github.com/bthemad/php-doc.vim.git

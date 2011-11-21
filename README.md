@@ -43,7 +43,14 @@ Usage:
 * ``\cm``  Add block comment.   
 * ``\cu``  Remove comment.
 
-### oop-javascript-identation: Block
+### oop-javascript-indentation
+Indentation script for OOP JavaScript.
+
+Usage: 
+
+* This plugin only works for JavaScript file.
+* ``gg=G`` Make indentation for current JavaScript file.
+* ``=`` Make indentation for current selection.
 
 ### phpfolding
 Automatic folding of PHP functions, classes,.. (also folds related PhpDoc) 
@@ -67,6 +74,21 @@ Usage:
 * ```<Shift>-<Tab>``` Just put a tab without showing the menu.
 
 ### surround
+Delete/change/add parentheses/quotes/XML-tags/much more with ease.
+
+Usage:
+
+* Normal mode:
+ * ``cs<$1><$2>`` Replace(c) surrounding(s) from $1 to $2. 
+  * ``cs'"`` Replace single quotes with double quotes. 
+  * ``cs'<q>`` Replace single quotes with <q/> tags.
+  * ``cst"`` Replace tags with double quotes.
+ * ``ds<$1>`` Delete(d) $1 surrounding.
+  * ``ds"`` Delete surrounding double quotes.
+ * ``yss<$1>`` Wrap entire line with $1.
+* Visual mode:
+ * ``S<$1>`` Wrap with $1.
+  * ``S<p class="foo">`` 
 
 ### taglist
 A source code browser and provides an overview of the structure of source code files.

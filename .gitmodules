@@ -29,11 +29,8 @@
     path = bundle/jslint
     url = git://github.com/hallettj/jslint.vim.git
 [submodule "bundle/oop-javascript-indentation"]
-	path = bundle/oop-javascript-indentation
-	url = git://github.com/vim-scripts/OOP-javascript-indentation.git
+    path = bundle/oop-javascript-indentation
+    url = git://github.com/vim-scripts/OOP-javascript-indentation.git
 [submodule "bundle/taglist"]
     path = bundle/taglist
     url = git://github.com/vim-scripts/taglist.vim.git
-[submodule "bundle/php-doc"]
-	path = bundle/php-doc
-	url = git://github.com/bthemad/php-doc.vim.git

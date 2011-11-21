@@ -58,6 +58,13 @@ Usage:
 Vim syntax file for scss.
 
 ### supertab
+Do all your insert-mode completion with Tab.
+
+Usage:
+
+* This plugin only works in insert mode.
+* ```<Tab>``` It displays a menu listing all matching keywords in current file.
+* ```<Shift>-<Tab>``` Just put a tab without showing the menu.
 
 ### surround
 

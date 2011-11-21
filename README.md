@@ -28,6 +28,7 @@ Inserts matching bracket, paren, brace or quote.
 VIM plugin and command line tool for running JSLint.
 
 Usage:
+
 * It also will display more information about the error in the commandline if the curser is in the same line.
 
 ### matchit.zip
@@ -122,7 +123,7 @@ Keyboard Shortcuts
 
 Automation
 ----------
-* Create HTML template.
+* Create a new *.html file with automatic content.
 * Remove tailing spaces.
 * Replace tabs with 4 spaces.
 * When saving a *.scss file, a mapping CSS file will be created or updated.

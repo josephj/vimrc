@@ -48,6 +48,17 @@ Usage:
 * ``\cm``  Add block comment.   
 * ``\cu``  Remove comment.
 
+### nerdtree
+A tree explorer plugin for navigating the filesystem.
+
+Usage:
+
+* ``<F1>`` Open the explorer.
+* ``o`` Open the file.
+* ``t`` Open the file in new tab.
+* ``i`` Open the file in split window.
+* ``q`` Quit the explorer.
+
 ### oop-javascript-indentation
 Indentation script for OOP JavaScript.
 
@@ -103,12 +114,19 @@ Usage:
  * ``S<$1>`` Wrap with $1.
   * ``S<p class="foo">`` 
 
+### tagbar
+Vim plugin that displays tags in a window, ordered by class etc.
+
+Usage:
+
+* ``F2`` Toggle the Tag List.
+
 ### taglist
 A source code browser and provides an overview of the structure of source code files.
 
 Usage:
 
-* ``F1`` Toggle the Tag List.
+* ``F4`` Toggle the Tag List.
 
 ### zencoding
 HTML and CSS hi-speed coding.
@@ -121,10 +139,10 @@ Usage:
 
 Keyboard Shortcuts
 ------------------
-* ```F1``` Toggle Tag List
-* ```F2```
+* ```F1``` Toggle NERDTree.
+* ```F2``` Toggle TagBar.
 * ```F3``` Print PHP test code.
-* ```F4```
+* ```F4``` Toggle TagList.
 * ```F5 ESC``` Enable Fast PHP Folds.
 * ```F6 ESC``` Enable PHP Folds.
 * ```F7 ESC``` Disable PHP Folds.

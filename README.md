@@ -114,10 +114,15 @@ Keyboard Shortcuts
 ------------------
 * ```F1``` Toggle Tag List
 * ```F2```
-* ```F3```
+* ```F3``` Print PHP test code.
 * ```F4```
 * ```F5 ESC``` Enable Fast PHP Folds.
 * ```F6 ESC``` Enable PHP Folds.
 * ```F7 ESC``` Disable PHP Folds.
 
-
+Automation
+----------
+* Create HTML template.
+* Remove tailing spaces.
+* Replace tabs with 4 spaces.
+* When saving a *.scss file, a mapping CSS file will be created or updated.

@@ -55,6 +55,7 @@ Usage:
 * ```<F7> <Esc>``` Disable PHP Folds. 
 
 ### scss-syntax
+Vim syntax file for scss.
 
 ### supertab
 
@@ -88,6 +89,12 @@ Usage:
 
 Keyboard Shortcuts
 ------------------
-* F1 - Toggle Tag List
+* ```F1```: Toggle Tag List
+* ```F2```
+* ```F3```
+* ```F4```
+* ```F5 ESC```: Enable Fast PHP Folds.
+* ```F6 ESC```: Enable PHP Folds.
+* ```F7 ESC```: Disable PHP Folds.
 
 

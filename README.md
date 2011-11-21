@@ -66,6 +66,14 @@ Usage:
 * ```<F6> <Esc>``` Enable PHP Folds.
 * ```<F7> <Esc>``` Disable PHP Folds. 
 
+### php-doc
+phpDocumentor for Vim : Provides really comfortable generation of phpDocumentor doc blocks for PHP4 & 5. 
+
+Usage:
+
+* Move cursor to any function name.
+* Type ```<Ctrl-K>``` and the comment block is generated.
+
 ### scss-syntax
 Vim syntax file for scss.
 

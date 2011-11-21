@@ -100,6 +100,6 @@ let Tlist_Exit_OnlyWindow = 1
 let Tlist_Use_Right_Window = 1
 
 " PHP Documentation plugin.
-inoremap <C-K> <ESC>:call PhpDocSingle()<CR>
+inoremap <C-K> <ESC>:call PhpDocSingle()<CR>i
 nnoremap <C-K> :call PhpDocSingle()<CR>
 vnoremap <C-K> :call PhpDocRange()<CR>

@@ -1,37 +1,58 @@
 VIM Configuration
 ==========================
-For ease of my personal VIM configuration deployment and sharing.
+For ease of my personal VIM configuration deployment.
 
 Installation
 ------------
-Automatically install it without cloning the repository.
+Automatically install it without cloning this repository.
 
      wget -O - https://raw.github.com/josephj/vimrc/master/install.sh | sh
 
 Installed Plugins
 ------------------
 ### align
-  Align and AlignMaps lets you align statements on their equal signs,
-  make comment boxes, align comments, align declarations, etc.
+Help folks to align text, equals, declarations, tables, etc.
+
+Usage:
+
+* ``\t=`` Align assignments.
+* ``\t,`` Align on commas.
+* ``\tsp`` Align on whitespace.
+* ``\acom`` Align comments.
+* ``\Htd`` Align HTML tables.
 
 ### autoclose
+Inserts matching bracket, paren, brace or quote.
 
 ### jslint
 
-### matchit
+### matchit.zip
+Extended % matching for HTML, LaTeX, and many other languages.
+
+Usage:
+
+On any HTML tags, press ``%`` to find opening or closing tag.
 
 ### nerdcommenter
 A plugin that allows for easy commenting of code for many filetypes.
 
-Usage (Visual + Normal modes) :
+Usage:
 
-    \cc // Add back slash comment.
-    \cm // Add block comment.
-    \cu // Remove comment.
+* This plugin works both in visual and normal mode.
+* ``\cc``  Add general comment.
+* ``\cm``  Add block comment.   
+* ``\cu``  Remove comment.
 
 ### oop-javascript-identation: Block
 
-### phpfolding: F5, F6, F7
+### phpfolding
+Automatic folding of PHP functions, classes,.. (also folds related PhpDoc) 
+
+Usage:
+
+* ```<F5> <Esc>``` Enable fast PHP Folds.
+* ```<F6> <Esc>``` Enable PHP Folds.
+* ```<F7> <Esc>``` Disable PHP Folds. 
 
 ### scss-syntax
 
@@ -40,11 +61,29 @@ Usage (Visual + Normal modes) :
 ### surround
 
 ### taglist
+A source code browser and provides an overview of the structure of source code files.
 
 Usage:
 
+* ``F1`` Toggle the Tag List.
 
 ### zencoding
+HTML and CSS hi-speed coding.
+
+Usage:
+
+1. Write CSS selector. Take ```div#foo$*2>div.bar``` for example.
+1. Type ```Ctrl-y```.
+1. It generates the following HTML codes:
+
+
+     <div id="foo1">
+         <div class="bar"></div>
+     </div>
+     <div id="foo2">
+         <div class="bar"></div>
+     </div>
+
 
 
 Keyboard Shortcuts

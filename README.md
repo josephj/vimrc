@@ -25,6 +25,10 @@ Usage:
 Inserts matching bracket, paren, brace or quote.
 
 ### jslint
+VIM plugin and command line tool for running JSLint.
+
+Usage:
+* It also will display more information about the error in the commandline if the curser is in the same line.
 
 ### matchit.zip
 Extended % matching for HTML, LaTeX, and many other languages.

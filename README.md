@@ -123,7 +123,7 @@ Keyboard Shortcuts
 
 Automation
 ----------
-* Create HTML template.
+* Create a new *.html file with automatic content.
 * Remove tailing spaces.
 * Replace tabs with 4 spaces.
 * When saving a *.scss file, a mapping CSS file will be created or updated.

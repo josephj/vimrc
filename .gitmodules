@@ -34,3 +34,9 @@
 [submodule "bundle/taglist"]
     path = bundle/taglist
     url = git://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://github.com/wincent/Command-T.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git

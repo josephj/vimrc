@@ -33,6 +33,8 @@ Usage:
 
 * It also will display more information about the error in the commandline if the curser is in the same line.
 
+![jslint](http://farm7.staticflickr.com/6058/6381296179_cb4a86e209_o.png)
+
 ### matchit.zip
 Extended % matching for HTML, LaTeX, and many other languages.
 

@@ -21,6 +21,8 @@ Usage:
 * ``\acom`` Align comments.
 * ``\Htd`` Align HTML tables.
 
+![Before](http://farm7.staticflickr.com/6240/6381243601_6c0e11b407_o.png) to ![After](http://farm7.staticflickr.com/6060/6381243567_97aeacc990_o.png)
+
 ### autoclose
 Inserts matching bracket, paren, brace or quote.
 
@@ -58,6 +60,8 @@ Usage:
 * ``t`` Open the file in new tab.
 * ``i`` Open the file in split window.
 * ``q`` Quit the explorer.
+
+![NERDTree](http://farm7.staticflickr.com/6099/6381243415_52928006da_o.png)
 
 ### oop-javascript-indentation
 Indentation script for OOP JavaScript.
@@ -120,6 +124,8 @@ Vim plugin that displays tags in a window, ordered by class etc.
 Usage:
 
 * ``F2`` Toggle the Tag List.
+
+![TagBar](http://farm7.staticflickr.com/6106/6381243523_1d5224913e_o.png)
 
 ### taglist
 A source code browser and provides an overview of the structure of source code files.

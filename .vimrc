@@ -62,8 +62,10 @@ highlight TabLineFill ctermbg=green
 highlight TabLineSel ctermbg=red
 
 " Set F1-F12 shortcut keys.
-map <silent> <F1> :TlistToggle<CR>
+nnoremap <silent> <F1> :NERDTree<CR>
+map <silent> <F2> :TagbarToggle<CR>
 map <F3> oecho "<pre>";print_r($);exit;<Esc>F$a
+map <silent> <F4> :TlistToggle<CR>
 map <F5> <Esc>:EnableFastPHPFolds<Cr>
 map <F6> <Esc>:EnablePHPFolds<Cr>
 map <F7> <Esc>:DisablePHPFolds<Cr>
@@ -94,10 +96,14 @@ autocmd BufNewFile *.html exe "1," . 10 . "g/name=\"created\" content=\".*\"/s//
 autocmd BufWritePre,FileWritePre *.html exe "1," . 10 . "g/name=\"modified\" content=\".*\"/s//name=\"modified\" content=\"" .strftime("%c"). "\""
 
 " TagList plugin.
-let Tlist_Auto_Open = 1
+let Tlist_Auto_Open = 0
 let Tlist_Show_One_File = 1
 let Tlist_Exit_OnlyWindow = 1
 let Tlist_Use_Right_Window = 1
+
+" Tagbar plugin.
+let g:tagbar_ctags_bin = 'ctags'
+let g:tagbar_width = 30
 
 " PHP Documentation plugin.
 inoremap <C-K> <ESC>:call PhpDocSingle()<CR>i

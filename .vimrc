@@ -1,5 +1,9 @@
 filetype on
-filetype plugin on
+if &diff
+    filetype plugin off
+else
+    filetype plugin on
+endif
 
 set bs=2
 set cindent
@@ -54,7 +58,6 @@ set tenc=utf8
 " Set foldering.
 set foldmethod=syntax
 set foldnestmax=3
-set foldcolumn=1
 
 " Set tab settings.
 highlight TabLine ctermbg=blue
